@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var occupation = "Developer"
+        var name = "jo"
+
         val car = Car("Toyota", "Avalon", "red")
         println(car.make)
         println(car.model)
