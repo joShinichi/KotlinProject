@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        var occupation = "Developer"
         val car = Car("Toyota", "Avalon", "red")
         println(car.make)
         println(car.model)
